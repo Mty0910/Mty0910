@@ -31,3 +31,11 @@ h1{
 p{
   font-size: 1rem;
 }
+
+body{
+	color: yellow;
+	color: rgb(225, 222, 65);
+	color: #d6e141cc;
+	color: rgba(182, 173, 39, 0.63);
+	color: #78b627cc;
+}
