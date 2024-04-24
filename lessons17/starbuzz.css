@@ -16,6 +16,9 @@
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
+  position: relative;
+	top:           -200px;
+	left:        200px;
 }
 
 .sidebar {
@@ -34,7 +37,6 @@
   padding:          15px;
   margin:           10px;
   font-size:        90%;
-  clear: right;
 }
 
 h1 {
@@ -75,3 +77,5 @@ a:visited {
 	right:        200px;
 	width:        280px;
 }
+
+
