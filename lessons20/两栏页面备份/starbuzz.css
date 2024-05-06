@@ -67,7 +67,7 @@ a:visited {
     border-bottom: thin dotted #675c47;
 }
 
-.all-content {
+.all-content-bak {
     width: 1100px;
     /* height: 200px; */
     /* background-color: aqua; */
@@ -107,4 +107,26 @@ div.talbeRow {
 	background-image: url('images/header.gif');
 	background-position: 260px 0px; /* 原来是向左偏移，现在呢 */
 	float: right;
+}
+
+.award {
+	position: absolute;
+	top: 30px;
+	left: 45%;
+}
+
+
+.coupon a, img{
+	border: none;
+}
+
+.coupon { 
+    position: fixed;
+	top: 350px; 
+	left: -210px; /* 初始位置在左侧 */ 
+	transition: left 0.5s ease; /* 添加过渡效果 */
+}
+
+.coupon:hover {
+	left: 0px; /* 悬停时移动到 0px 的位置 */
 }
