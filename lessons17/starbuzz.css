@@ -15,19 +15,15 @@
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
-  position: relative;
-	top:           -200px;
-	left:        200px;
+  margin:           0px 300px 10px 10px;
+  
 }
 
 .sidebar {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 300px 10px 10px;
-  width: 280px;
-  float: right;
+  margin:           0px 10px 10px 10px;
 }
 
 .footer {
@@ -78,4 +74,18 @@ a:visited {
 	width:        280px;
 }
 
-
+.tableContainer {
+  display: talbe;
+  border-spacing: 10px;
+}  
+.main {
+  display: table-cell;
+  vertical-align: top; 
+}
+.sidebar {
+  display: table-cell;
+  vertical-align: top;
+}
+.tableRow {
+  display: table-row;
+}
