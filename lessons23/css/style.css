@@ -1,0 +1,237 @@
+.main {
+	width: 1900px;
+	margin: 0 auto;
+	max-width: 100%;
+	position: relative;
+	
+	padding-left: 15px;
+}
+.main::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav_btn {
+	display: none;
+}
+body {
+	padding-top: 100px;
+}
+
+.xian{background-color: #AAC400; height: 5px;}
+.header_out {
+	background: #fff;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	transition: all 0.3s;
+	height: 100px;
+	z-index: 999;
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.swiper-no-swiping img {
+	max-height: 660px;
+}
+.ts {
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.head {
+	height: 100px;
+	position: relative;
+	transition: all 0.3s;
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.head .logo {
+	display: block;
+	float: left;
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.head .logo img {
+	display: block;
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+	float: left;
+}
+.head .logo .logo_a {
+	transition: all 0.35s;
+	width: 162px;
+	position: absolute;
+	top: 0;
+	left: 35px;
+	height: 163px;
+}
+.head .logo .logo_b {
+	margin-left: 14px;
+	margin-top: 8px;
+	display: none;
+}
+.head .nav {
+	margin-left: 183px;
+	float: left;
+}
+.head .nav li {
+	float: left;
+	position: relative;
+	margin: 0 4px;
+}
+.head .nav li>a {
+	line-height: 100px;
+	padding: 0 15px;
+	font-size: 16px;
+	color: #333;
+	display: block;
+	transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+	color: #007A5A;
+	font-size: 20px;
+	font-weight: 700;
+}
+.head .nav li>a:hover{background-color: #EFEFEF;}
+
+.head .nav li .sub {
+	position: absolute;
+	min-width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	visibility: hidden;
+	opacity: 0;
+	top: 110%;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0px 1px 1px 0.26px rgba(0, 0, 0, 0.15);
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+	white-space: nowrap;
+	text-align: center;
+	padding: 0 0;
+	border-top: 3px solid #c2131c;
+}
+.head .nav li .sub a {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	padding: 0 10px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #949494;
+	min-width: 105px;
+	color: #333;
+	border-bottom: 1px solid #d2d2d2;
+	transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.head .nav li .sub a:last-child {
+	border-bottom: none;
+}
+.head .nav li .sub a:hover {
+	background: #ededed;
+}
+.head .tel {
+	float: right;
+	
+	margin-top: 10px;
+	    margin-left: 25px;
+	transition: all 0.3s;
+	
+}
+.tel .yi{width: 115px;float: left;}
+.tel .yi img{width: 100%;margin-top: 10px;}
+.tel .er{width: 50px;float: left;margin-top: 10px;}
+.tel .er img{width: 40px;height: 40px;}
+.tel .san{width: 80px;float: left;}
+.tel .san img{width: 80px;height: 60px;}
+.tel .si{width: 100px;float: left;}
+.tel .si img{width: 100px;height:60px ;}
+
+.head .tel p {
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+.head .tel span {
+	display: block;
+	color: #c2131c;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1;
+	font-family: "din";
+	letter-spacing: -2px;
+}
+.banner {
+	background: url(../img/banner.jpg);height: 1000px;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.banner  h3{top: 45%;left: 34%;position: absolute;
+font-size: 50px;color: #FFFFFF;font-weight: bold;
+}
+
+.banner a{position: absolute;bottom: 30px;left: 43%;
+font-size: 20px;color: #FFFFFF;
+}
+
+.banner img {
+	width: 100%;
+}
+.banner .swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	opacity: 0.5;
+}
+.banner .swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #c2131c;
+}
+
+
+
+.main1{width: 740px;margin: 0 auto;}
+.kuai1{text-align: center;margin: 50px 0;}
+.kuai1 h3{font-size: 20px;}
+.kuai1 h1{font-size: 45px;color: #007A5A;font-weight: bold;margin: 25px 0;}
+.kuai1 p{font-size: 20px;}
+
+
+/* 新的css做到这里 其他不要动*/
+
+
+
+
+ @media (min-width: 1031px) {
+.nav li:hover>a {
+}
+.nav li:hover .sub {
+	top: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+.header_out.on {
+	box-shadow: 0.174px 0.985px 13.58px 0.42px rgba(0, 0, 0, 0.1);
+	height: 75px;
+}
+.header_out.on .head {
+height: 75px;
+}
+
+/* sss */
+.header_out.on .head .nav li>a {
+	line-height: 60px;
+}
+.header_out.on .head .tel {
+	margin-top: 5px;
+}
+.header_out.on .head .logo .logo_a {
+	height: 0;
+}
+.header_out.on .head .logo img.logo_b {
+display: block;
+        height: 99px;
+        margin-top: 5px;
+        left: 72px;
+        position: absolute;
+}
+.m_nav {
+	display: none !important;
+}
+}
+ 
+ 
