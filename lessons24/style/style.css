@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:active
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.head {
+  padding: 0 30px;
+  background:white;
+  height: 80px;
+  position: relative;
+  z-index: 10;
+}
+.logo {
+  float: left;
+  padding-top: 25px;
+}
+.logo img {
+  height: 25px;
+}
+.head ul {
+  float: right;
+}
+.head ul li {
+  list-style: none;
+  float: left;
+  position: relative;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+.head ul li > a {
+  line-height: 80px;
+  display: block;
+  width: 95%;
+  height: 100%;
+}
+.mask {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  z-index: 999;
+  width: 500px;
+  display: none;
+  height: 60px;
+  transition: 0.3s;
+}
+.mask a {
+  font-size: 14px;
+}
+.mask span {
+  font-size: 10px;
+  margin: 0 10px;
+}
+.head .mask::after {
+  position: absolute;
+  top: -20px;
+  content: '';
+  width: 1px;
+  left: 50px;
+  height: 12px;
+  background: #999;
+}
+.head a:hover {
+  color: gray;
+}
+.head .nav li:hover .mask{
+  display: block;
+}
+ul li > ab{
+  text-decoration: underline;
+  line-height: 80px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.head ab:hover {
+  color: gray;
+}
+.banner {
+  position: relative;
+  background: #ddd;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+.banner video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  object-fit: cover;
+}
+.player {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.scroll {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  z-index: 99;
+}
+.line {
+  width: 2px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 50px;
+  background: white;
+}
+.main {
+  margin: 50px auto;
+  width: 1120px;
+}
+.row1 {
+  position: relative;
+}
+.row1 img {
+  width: 100%;
+}
+.row1 .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 30px;
+  transition-duration: 0.25s;
+  background:white;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.row1 .text .t {
+  transition: 0.3s 0.3s;
+  opacity: 0;
+}
+.row1 .text h4 {
+  font-size: 20px;
+  letter-spacing: 0.075em;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.row1 .text p {
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+}
+.row1:hover {
+  cursor: pointer;
+}
+.row1:hover .text {
+  transform: scaleX(1);
+}
+.row1:hover .t {
+  opacity: 1;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.row2 .item {
+  width: 32%;
+  position: relative;
+}
+.row2 .item img {
+  width: 100%;
+}
+.row2 .item .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 30px;
+  transition-duration: 0.25s;
+  background:white;
+  transition: 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.row2 .item .text .t {
+  transition: 0.3s 0.3s;
+  opacity: 0;
+}
+.row2 .item .text h4 {
+  font-size: 20px;
+  letter-spacing: 0.075em;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.row2 .item .text p {
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+}
+.row2 .item:hover {
+  cursor: pointer;
+}
+.row2 .item:hover .text {
+  transform: scaleX(1);
+}
+.row2 .item:hover .t {
+  opacity: 1;
+}
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.row3 .item {
+  width: 48.5%;
+  position: relative;
+}
+.row3 .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.row3 .item .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 30px;
+  transition-duration: 0.25s;
+  background: white;
+  transition: 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.row3 .item .text .t {
+  transition: 0.3s 0.3s;
+  opacity: 0;
+}
+.row3 .item .text h4 {
+  font-size: 20px;
+  letter-spacing: 0.075em;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.row3 .item .text p {
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+}
+.row3 .item:hover {
+  cursor: pointer;
+}
+.row3 .item:hover .text {
+  transform: scaleX(1);
+}
+.row3 .item:hover .t {
+  opacity: 1;
+}
