@@ -35,6 +35,7 @@ a {
   cursor: pointer;
   width: 100px;
   text-align: center;
+  
 }
 .head ul li > a {
   line-height: 80px;
@@ -81,7 +82,7 @@ ul li > ab{
   width: 100%;
   height: 100%;
 }
-.head ab:hover {
+.head a:hover {
   color: gray;
 }
 .banner {
@@ -97,13 +98,7 @@ ul li > ab{
   z-index: 1;
   object-fit: cover;
 }
-.player {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-}
+
 .scroll {
   position: absolute;
   bottom: 10px;
