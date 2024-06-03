@@ -6,10 +6,6 @@
 	
 	padding-left: 15px;
 }
-.main::after {
-	display: block;
-	clear: both;
-}
 .nav_btn {
 	display: none;
 }
